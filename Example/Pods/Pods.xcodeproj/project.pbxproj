@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B93312C20EE8B24007B44DF /* Error Handling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93312920EE8B24007B44DF /* Error Handling.swift */; };
+		0B93312D20EE8B24007B44DF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93312A20EE8B24007B44DF /* Colors.swift */; };
+		0B93312E20EE8B24007B44DF /* Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93312B20EE8B24007B44DF /* Traits.swift */; };
 		5058264835606D65E764CF1E4F647FFF /* Pods-earlsJournal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC891EF8EBDE27D132DB57F2F1A296 /* Pods-earlsJournal_Tests-dummy.m */; };
-		52BF808CEF7E7B1E38312B7D78509036 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EA7A7CFEE5490195831F6AA7C6F0C /* ReplaceMe.swift */; };
 		90A132FAF74D3206A6381D28743796FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		94EF827FCCE9B7F45A9DC0BAF324150E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BBEEDB6ADB3DAC0201B3396D1E3D4B8E /* Pods-earlsJournal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A77441B9E94D1C51C077DAF5AF423F2 /* Pods-earlsJournal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		012F5BAB6E5BF9829C111C3990937B85 /* Pods-earlsJournal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-earlsJournal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B93312920EE8B24007B44DF /* Error Handling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Error Handling.swift"; path = "earlsJournal/Classes/Error Handling.swift"; sourceTree = "<group>"; };
+		0B93312A20EE8B24007B44DF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = earlsJournal/Classes/Colors.swift; sourceTree = "<group>"; };
+		0B93312B20EE8B24007B44DF /* Traits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Traits.swift; path = earlsJournal/Classes/Traits.swift; sourceTree = "<group>"; };
 		1C69F902AF4F39D265E2CF3924952A3C /* earlsJournal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = earlsJournal.podspec; sourceTree = "<group>"; };
 		27C511F098F46DEF93301C8C770FF8B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1E1144314094A8B9A488DA3446D381 /* Pods-earlsJournal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-earlsJournal_Tests.modulemap"; sourceTree = "<group>"; };
@@ -35,7 +40,6 @@
 		3BF42FD00298A65967E8866EB4AF4840 /* Pods-earlsJournal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-earlsJournal_Tests-resources.sh"; sourceTree = "<group>"; };
 		46D46AD8295A9F2C6336C9F0431B63C2 /* Pods_earlsJournal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_earlsJournal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A77441B9E94D1C51C077DAF5AF423F2 /* Pods-earlsJournal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-earlsJournal_Tests-umbrella.h"; sourceTree = "<group>"; };
-		633EA7A7CFEE5490195831F6AA7C6F0C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = earlsJournal/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69FC1E77BE2048EACD93D0AEFC76CE8C /* earlsJournal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = earlsJournal.modulemap; sourceTree = "<group>"; };
 		6DDC63C0F371123C2B3E1B7137EBBA92 /* Pods-earlsJournal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-earlsJournal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -92,7 +96,9 @@
 		59282DB7CF6129D776BB03865897B28A /* earlsJournal */ = {
 			isa = PBXGroup;
 			children = (
-				633EA7A7CFEE5490195831F6AA7C6F0C /* ReplaceMe.swift */,
+				0B93312A20EE8B24007B44DF /* Colors.swift */,
+				0B93312920EE8B24007B44DF /* Error Handling.swift */,
+				0B93312B20EE8B24007B44DF /* Traits.swift */,
 				E0EC18DD9D2D140FB0E6DA6CA6347645 /* Pod */,
 				A59D2DE84022676687839DB2471F354A /* Support Files */,
 			);
@@ -268,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C460DBE0CBEE8E6B110E3FD653880E85 /* earlsJournal-dummy.m in Sources */,
-				52BF808CEF7E7B1E38312B7D78509036 /* ReplaceMe.swift in Sources */,
+				0B93312D20EE8B24007B44DF /* Colors.swift in Sources */,
+				0B93312E20EE8B24007B44DF /* Traits.swift in Sources */,
+				0B93312C20EE8B24007B44DF /* Error Handling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -78,9 +78,9 @@ extension UIColor {
 
 // RGB Conversion Library
 extension UIColor {
-	private struct RGBColor { static var maxValue: CGFloat = 255 }
+	fileprivate struct RGBColor { static var maxValue: CGFloat = 255 }
 	
-	private func from(RGB values: [CGFloat]) -> UIColor {
+	fileprivate func from(RGB values: [CGFloat]) -> UIColor {
 		func checkForErrorsInRGBComponents() {
 			for value in values {
 				Error(regarding: value, if: { () -> (Bool) in

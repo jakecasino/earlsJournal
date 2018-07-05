@@ -9,9 +9,7 @@ protocol ErrorHandling { }
 extension ErrorHandling {
 	public func Error(regarding item: Any, if problematicSituationOccurs: () -> (Bool), explanation: String) {
 		if problematicSituationOccurs() {
-			var address = ""
-			withUnsafePointer(to: item) { address += "\($0)" }
-			print("ERROR regarding \(address) of type '\(type(of: item))' [\(explanation)]")
+			print("ERROR regarding \(Unmanaged.passUnretained(item as AnyObject).toOpaque()) of type '\(type(of: item))' [\(explanation)]")
 		}
 	}
 }
