@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BECC66E20ED8918001D2186 /* EarlsJournal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECC66420ED8918001D2186 /* EarlsJournal.framework */; };
+		0BECC66E20ED8918001D2186 /* earlsJournal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BECC66420ED8918001D2186 /* earlsJournal.framework */; };
 		0BECC67320ED8918001D2186 /* EarlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BECC67220ED8918001D2186 /* EarlTests.swift */; };
 		0BECC67520ED8918001D2186 /* Earl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BECC66720ED8918001D2186 /* Earl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BECC68120ED89DA001D2186 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BECC67E20ED89DA001D2186 /* Colors.swift */; };
@@ -26,10 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BECC66420ED8918001D2186 /* EarlsJournal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EarlsJournal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BECC66420ED8918001D2186 /* earlsJournal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = earlsJournal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BECC66720ED8918001D2186 /* Earl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Earl.h; sourceTree = "<group>"; };
 		0BECC66820ED8918001D2186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BECC66D20ED8918001D2186 /* EarlsJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlsJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BECC66D20ED8918001D2186 /* earlsJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = earlsJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BECC67220ED8918001D2186 /* EarlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlTests.swift; sourceTree = "<group>"; };
 		0BECC67420ED8918001D2186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BECC67E20ED89DA001D2186 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BECC66E20ED8918001D2186 /* EarlsJournal.framework in Frameworks */,
+				0BECC66E20ED8918001D2186 /* earlsJournal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +68,8 @@
 		0BECC66520ED8918001D2186 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BECC66420ED8918001D2186 /* EarlsJournal.framework */,
-				0BECC66D20ED8918001D2186 /* EarlsJournalTests.xctest */,
+				0BECC66420ED8918001D2186 /* earlsJournal.framework */,
+				0BECC66D20ED8918001D2186 /* earlsJournalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BECC66320ED8918001D2186 /* EarlsJournal */ = {
+		0BECC66320ED8918001D2186 /* earlsJournal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BECC67820ED8918001D2186 /* Build configuration list for PBXNativeTarget "EarlsJournal" */;
+			buildConfigurationList = 0BECC67820ED8918001D2186 /* Build configuration list for PBXNativeTarget "earlsJournal" */;
 			buildPhases = (
 				0BECC65F20ED8918001D2186 /* Sources */,
 				0BECC66020ED8918001D2186 /* Frameworks */,
@@ -122,14 +122,14 @@
 			);
 			dependencies = (
 			);
-			name = EarlsJournal;
+			name = earlsJournal;
 			productName = Earl;
-			productReference = 0BECC66420ED8918001D2186 /* EarlsJournal.framework */;
+			productReference = 0BECC66420ED8918001D2186 /* earlsJournal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0BECC66C20ED8918001D2186 /* EarlsJournalTests */ = {
+		0BECC66C20ED8918001D2186 /* earlsJournalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BECC67B20ED8918001D2186 /* Build configuration list for PBXNativeTarget "EarlsJournalTests" */;
+			buildConfigurationList = 0BECC67B20ED8918001D2186 /* Build configuration list for PBXNativeTarget "earlsJournalTests" */;
 			buildPhases = (
 				0BECC66920ED8918001D2186 /* Sources */,
 				0BECC66A20ED8918001D2186 /* Frameworks */,
@@ -140,9 +140,9 @@
 			dependencies = (
 				0BECC67020ED8918001D2186 /* PBXTargetDependency */,
 			);
-			name = EarlsJournalTests;
+			name = earlsJournalTests;
 			productName = EarlTests;
-			productReference = 0BECC66D20ED8918001D2186 /* EarlsJournalTests.xctest */;
+			productReference = 0BECC66D20ED8918001D2186 /* earlsJournalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -176,8 +176,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BECC66320ED8918001D2186 /* EarlsJournal */,
-				0BECC66C20ED8918001D2186 /* EarlsJournalTests */,
+				0BECC66320ED8918001D2186 /* earlsJournal */,
+				0BECC66C20ED8918001D2186 /* earlsJournalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		0BECC67020ED8918001D2186 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BECC66320ED8918001D2186 /* EarlsJournal */;
+			target = 0BECC66320ED8918001D2186 /* earlsJournal */;
 			targetProxy = 0BECC66F20ED8918001D2186 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BECC67820ED8918001D2186 /* Build configuration list for PBXNativeTarget "EarlsJournal" */ = {
+		0BECC67820ED8918001D2186 /* Build configuration list for PBXNativeTarget "earlsJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BECC67920ED8918001D2186 /* Debug */,
@@ -461,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BECC67B20ED8918001D2186 /* Build configuration list for PBXNativeTarget "EarlsJournalTests" */ = {
+		0BECC67B20ED8918001D2186 /* Build configuration list for PBXNativeTarget "earlsJournalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BECC67C20ED8918001D2186 /* Debug */,
