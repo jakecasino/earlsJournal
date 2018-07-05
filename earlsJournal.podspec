@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.license      = "Earl Technology"
   s.author       = { "Jake Casino" => "jake@jakecasino.com" }
   s.source       = { :git => "https://github.com/jakecasino/Docket.git", :tag => "#{s.version}" }
-  s.source_files  = "Libraries/*.swift"
+  s.source_files  = "Libraries/**/*.swift"
 end
