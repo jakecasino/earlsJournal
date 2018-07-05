@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'earlsJournal'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'Library of common tasks for iOS development.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,7 @@ The works of Earl Grey in his quest to make iOS development more efficient.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
+  s.swift_version = '4.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
