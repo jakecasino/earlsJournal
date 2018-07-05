@@ -30,7 +30,7 @@ The works of Earl Grey in his quest to make iOS development more efficient.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'earlsJournal/Classes/**/*'
+  s.source_files = 'earlsJournal/**/*'
   
   # s.resource_bundles = {
   #   'earlsJournal' => ['earlsJournal/Assets/*.png']
