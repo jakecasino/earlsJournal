@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/jakecasino/Docket"
   s.license      = "Earl Technology"
   s.author       = { "Jake Casino" => "jake@jakecasino.com" }
-  s.source       = { :path => '.' }
-  # s.source       = { :git => "git@github.com:jakecasino/Docket.git", :branch => "#{s.version}", :tag => "#{s.version.to_s}" }
-  s.source_files  = "earlsJournal/**/*.swift"
+  s.source       = { :git => "https://github.com/jakecasino/Docket.git", :tag => "#{s.version}" }
+  s.source_files  = "Libraries/*.swift"
 end
