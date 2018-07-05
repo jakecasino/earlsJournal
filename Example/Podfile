@@ -1,0 +1,6 @@
+use_frameworks!
+target 'earlsJournal_Tests' do
+  pod 'earlsJournal', :path => '../'
+  
+  
+end

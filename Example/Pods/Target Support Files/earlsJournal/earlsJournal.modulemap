@@ -1,0 +1,6 @@
+framework module earlsJournal {
+  umbrella header "earlsJournal-umbrella.h"
+
+  export *
+  module * { export * }
+}

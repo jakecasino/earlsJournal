@@ -1,0 +1,16 @@
+PODS:
+  - earlsJournal (0.1.0)
+
+DEPENDENCIES:
+  - earlsJournal (from `../`)
+
+EXTERNAL SOURCES:
+  earlsJournal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  earlsJournal: c9c55548e99ce4550e134c74734f4d7aa7d78fa3
+
+PODFILE CHECKSUM: 8fe2c9376be48170f0b29de5f8450861c4a0ef68
+
+COCOAPODS: 1.5.3
